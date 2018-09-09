@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apdo_homework_1", "apdo_homework_1\apdo_homework_1.csproj", "{4E3D4013-325E-4309-9E10-666868D9CEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apdo_homework_1_2", "apdo_homework_1_2\apdo_homework_1_2.csproj", "{FD342810-8700-4AB4-A33D-797811364B9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3D4013-325E-4309-9E10-666868D9CEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3D4013-325E-4309-9E10-666868D9CEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3D4013-325E-4309-9E10-666868D9CEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3D4013-325E-4309-9E10-666868D9CEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD342810-8700-4AB4-A33D-797811364B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD342810-8700-4AB4-A33D-797811364B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD342810-8700-4AB4-A33D-797811364B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD342810-8700-4AB4-A33D-797811364B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5F7FBCF-01E7-43D9-BAFD-D8A855C57087}
+	EndGlobalSection
+EndGlobal

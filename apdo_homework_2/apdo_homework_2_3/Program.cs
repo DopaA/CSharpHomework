@@ -19,8 +19,7 @@ namespace apdo_homework_2_3
             {
                 for(int j = 2; j < 100; j++)
                 {
-                    double temp = arrTemp[i] / j;
-                    if (temp == (int)temp && temp > 1)
+                    if (arrTemp[i]%j==0 && arrTemp[i]!=j)
                     {
                         arrTemp[i] = 0;
 

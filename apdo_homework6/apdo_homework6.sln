@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apdo_homework6", "apdo_homework6\apdo_homework6.csproj", "{D467E3EB-EBD8-4941-A46C-818A90CF8637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apdo_homework6Tests", "apdo_homework6Tests\apdo_homework6Tests.csproj", "{FCA98D99-05BC-43B9-9DA8-592154A3471F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D467E3EB-EBD8-4941-A46C-818A90CF8637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D467E3EB-EBD8-4941-A46C-818A90CF8637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D467E3EB-EBD8-4941-A46C-818A90CF8637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D467E3EB-EBD8-4941-A46C-818A90CF8637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA98D99-05BC-43B9-9DA8-592154A3471F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA98D99-05BC-43B9-9DA8-592154A3471F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA98D99-05BC-43B9-9DA8-592154A3471F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA98D99-05BC-43B9-9DA8-592154A3471F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF0C2E7E-585B-4CC8-85DC-A4A3667BCA36}
+	EndGlobalSection
+EndGlobal

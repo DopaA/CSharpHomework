@@ -150,7 +150,7 @@ namespace apdo_homework_form7
             nav.MoveToRoot();
             XslCompiledTransform xslt = new XslCompiledTransform();
             xslt.Load(@".\OrderList.xslt");
-            XmlTextWriter writer = new XmlTextWriter(@"..\..\..\OrderList.html",null);
+            XmlTextWriter writer = new XmlTextWriter(@".\OrderList.html",null);
             xslt.Transform(nav,null, writer);
             writer.Flush();
             writer.Close();

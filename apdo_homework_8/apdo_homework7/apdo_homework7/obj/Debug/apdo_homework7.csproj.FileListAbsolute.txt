@@ -1,7 +1,0 @@
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\bin\Debug\apdo_homework7.exe.config
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\bin\Debug\apdo_homework7.exe
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\bin\Debug\apdo_homework7.pdb
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\obj\Debug\apdo_homework7.csprojAssemblyReference.cache
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\obj\Debug\apdo_homework7.csproj.CoreCompileInputs.cache
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\obj\Debug\apdo_homework7.exe
-C:\Users\doapc\Desktop\apdo_homework_8\apdo_homework7\apdo_homework7\obj\Debug\apdo_homework7.pdb

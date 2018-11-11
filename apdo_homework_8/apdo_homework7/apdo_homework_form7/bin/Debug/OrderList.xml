@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <OrderNum>11111111111</OrderNum>
+    <OrderName>2</OrderName>
+    <OrderPersonPhone>122-222-3333</OrderPersonPhone>
+    <OrderCount>0</OrderCount>
+    <OrderPrice>0</OrderPrice>
+  </Order>
+  <Order>
+    <OrderNum>11111111112</OrderNum>
+    <OrderName>2</OrderName>
+    <OrderPersonPhone>322-222-3333</OrderPersonPhone>
+    <OrderCount>0</OrderCount>
+    <OrderPrice>0</OrderPrice>
+  </Order>
+</ArrayOfOrder>

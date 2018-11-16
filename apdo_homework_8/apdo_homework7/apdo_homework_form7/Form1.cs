@@ -40,7 +40,7 @@ namespace apdo_homework_form7
         //新建按钮，新建的同时进行验证，成功则将结果输入到xml和html中
         private void button1_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.Rows[r].Cells[0].Value == null|| dataGridView1.Rows[r].Cells[1].Value == null|| dataGridView1.Rows[r].Cells[2].Value == null)
+            if (dataGridView1.Rows[r].Cells[0].Value == null || dataGridView1.Rows[r].Cells[1].Value == null || dataGridView1.Rows[r].Cells[2].Value == null)
             {
                 DialogResult result1 = MessageBox.Show("订单内容不可为空", "警告", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -58,12 +58,12 @@ namespace apdo_homework_form7
                     n++;
                 }
             }
-           
+
             Regex regex = new Regex("[0-9]{11}");
             bool mat = regex.IsMatch(numOfOrder);
-            Regex regex1 = new Regex("[0-9]{3}-[0-9]{3}-[0-9]{4}");
+            Regex regex1 = new Regex("[0-9]{3}-[0-9]{4}-[0-9]{4}");
             bool phmat = regex1.IsMatch(sPersonPhone);
-            if (n > 1||(!mat)||(!phmat))
+            if (n > 1 || (!mat) || (!phmat))
             {
                 if (!mat)
                 {
@@ -75,7 +75,8 @@ namespace apdo_homework_form7
                     DialogResult result1 = MessageBox.Show("手机号不符合规范，格式为199-199-1111", "警告", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                else{
+                else
+                {
                     DialogResult result1 = MessageBox.Show("订单重复", "警告", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
@@ -124,14 +125,14 @@ namespace apdo_homework_form7
                 bindingSource1.DataSource = orders;
             }
         }
-        
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            OrderName = this.textBox2.Text;        
+            OrderName = this.textBox2.Text;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {        
+        {
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -145,13 +146,13 @@ namespace apdo_homework_form7
         {
             Export(orders);
             XmlDocument doc = new XmlDocument();
-            doc.Load(@".\OrderList.xml");
+            doc.Load(@"..\..\OrderList.xml");
             XPathNavigator nav = doc.CreateNavigator();
             nav.MoveToRoot();
             XslCompiledTransform xslt = new XslCompiledTransform();
-            xslt.Load(@".\OrderList.xslt");
-            XmlTextWriter writer = new XmlTextWriter(@".\OrderList.html",null);
-            xslt.Transform(nav,null, writer);
+            xslt.Load(@"..\..\OrderList.xslt");
+            XmlTextWriter writer = new XmlTextWriter(@"..\..\OrderList.html", null);
+            xslt.Transform(nav, null, writer);
             writer.Flush();
             writer.Close();
             return writer.ToString();
@@ -160,7 +161,7 @@ namespace apdo_homework_form7
         public static void Export(List<Order> orders)
         {
             XmlSerializer xmlOrderservice = new XmlSerializer(typeof(List<Order>));
-            string xmlFileName = @".\OrderList.xml";
+            string xmlFileName = @"..\..\OrderList.xml";
             XmlSerialize(xmlOrderservice, xmlFileName, orders);
         }
         public static void XmlSerialize(XmlSerializer ser, string filename, object obj)
@@ -173,7 +174,7 @@ namespace apdo_homework_form7
         public List<Order> Import()
         {
             XmlSerializer xmlOrderservice = new XmlSerializer(typeof(List<Order>));
-            string xmlFileName = @".\Order.xml";
+            string xmlFileName = @"..\..\Order.xml";
             FileStream fs = new FileStream(xmlFileName, FileMode.Open, FileAccess.Read);
             List<Order> orders = (List<Order>)xmlOrderservice.Deserialize(fs);
             return orders;

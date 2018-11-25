@@ -1,2 +1,24 @@
 <?xml version="1.0"?>
-<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <OrderNum>11111111113</OrderNum>
+    <OrderName>eraser</OrderName>
+    <OrderPersonPhone>123-2423-2352</OrderPersonPhone>
+    <OrderCount>5</OrderCount>
+    <OrderPrice>1</OrderPrice>
+  </Order>
+  <Order>
+    <OrderNum>11324353531</OrderNum>
+    <OrderName>ink</OrderName>
+    <OrderPersonPhone>137-2423-4232</OrderPersonPhone>
+    <OrderCount>6</OrderCount>
+    <OrderPrice>6</OrderPrice>
+  </Order>
+  <Order>
+    <OrderNum>12132425351</OrderNum>
+    <OrderName>pen</OrderName>
+    <OrderPersonPhone>142-4234-2423</OrderPersonPhone>
+    <OrderCount>8</OrderCount>
+    <OrderPrice>8</OrderPrice>
+  </Order>
+</ArrayOfOrder>
